@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 
 # Load the pre-trained Random Forest Regressor model
-model_path = 'rf_regressor.pkl'  # Path to your saved model
+model_path = 'FDM_PROJECT_IT22154576/rf_regressor.pkl'  # Path to your saved model
 rf_regressor = joblib.load(model_path)
 
 # Load dataset for preprocessing
