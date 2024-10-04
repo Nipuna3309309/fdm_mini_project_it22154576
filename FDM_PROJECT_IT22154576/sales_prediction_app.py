@@ -9,7 +9,7 @@ model_path = 'FDM_PROJECT_IT22154576/rf_regressor.pkl'  # Path to your saved mod
 rf_regressor = joblib.load(model_path)
 
 # Load dataset for preprocessing
-data3 = pd.read_csv('Video_Games.csv')
+data3 = pd.read_csv('FDM_PROJECT_IT22154576/Video_Games.csv')
 
 # Preprocessing for training
 scaler = MinMaxScaler()
